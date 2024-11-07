@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+
+<h2>Application Form</h2>
+
+<form action="#" method="post">
+
+    <!-- Text Input -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <!-- Email Input -->
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <!-- Telephone Input -->
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <!-- Date Input -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <!-- Number Input -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="0" max="120"><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+
+    
+
+    <!-- Dropdown Select -->
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+        <option value="us">United States</option>
+        <option value="uk">United Kingdom</option>
+        <option value="ca">Canada</option>
+        <option value="au">Australia</option>
+    </select><br><br>
+
+    <!-- Multiple Select -->
+    <label for="skills">Select Your Skills:</label><br>
+    <select id="skills" name="skills" multiple>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+        <option value="python">Python</option>
+    </select><br><br>
+
+    <!-- Textarea -->
+    <label for="comments">Additional Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4"></textarea><br><br>
+
+    <!-- Submit and Reset buttons -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+</body>
+</html>
